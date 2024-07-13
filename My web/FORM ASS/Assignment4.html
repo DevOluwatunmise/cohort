@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Signup</title>
+  </head>
+
+  <body>
+    <div>
+   
+
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          style="margin-top: 10px"
+          required
+        /><br />
+
+        <input
+          type="checkbox"
+          name="subscribe"
+          style="margin-top: 15px; margin-bottom: 20px"
+        />
+        <label class="checkbox-label" for="subscribe"
+          >Subscribe to the Newsletter</label
+        ><br />
+
+        <label for="format">Format of email:</label><br />
+        <input type="radio" name="format" />
+        <label class="radio-label" for="html">HTML</label><br />
+        <input type="radio" name="format" />
+        <label class="radio-label" for="js">Plain text</label><br />
+
+        <label for="format">Type of subscription you want:</label><br />
+        <select name="q4" style="margin-bottom: 20px; margin-top: 15px">
+          <option value="android">Standard-free</option>
+          <option value="ios">free</option>
+          <option value="other">Standard</option></select
+        ><br />
+
+        <label for="comments">Comments to the Editor:</label><br />
+        <textarea name="comments" rows="4" cols="50"></textarea><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

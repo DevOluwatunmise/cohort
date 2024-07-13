@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    background-image: url(/12639e2b2b60f5e2511c530ae8c68210.jpg);
+    background-repeat: repeat;
+}
+
+.boxOne{
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+
+}
+
+.boxTwo{
+    background-image:url(/jene-stephaniuk-lkmGeyLItrw-unsplash.jpg);
+    background-size: cover;
+    background-position: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.boxThree{
+    height: 700px;
+    width: auto;
+    background-image: url(/sport.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}

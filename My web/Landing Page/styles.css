@@ -1,0 +1,89 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+header {
+  padding: 1.5rem 7rem;
+}
+
+.mainNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainNav .mainNavList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+
+.mainNavList li a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.mainNavList  .logIn {
+  padding: 0.5rem 2rem;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.mainNavList  .logIn a {
+  color: white;
+}
+
+.mainHero {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 2rem 4rem 2rem 7rem;
+}
+.heroBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+}
+
+.mainHero .heroBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  /* font-weight: 500; */
+
+}
+.mainHero .heroText h1 {
+  display: flex;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+.mainHero .heroText p {
+  display: flex;
+  font-size: 12px;
+  align-items: flex-start;
+} 
+.heroBox button {
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.heroBtn li a {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        #survey-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        select,
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="survey-container">
+
+        <h2>Survey Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="q1">What is your favorite programming language?</label>
+            <input type="radio" name="q1" value="python" id="q1-python"> <label for="q1-python">Python</label>
+            <input type="radio" name="q1" value="javascript" id="q1-javascript"> <label for="q1-javascript">JavaScript</label>
+            <input type="radio" name="q1" value="java" id="q1-java"> <label for="q1-java">Java</label>
+
+            <label for="q2">How many programming languages do you know?</label>
+            <input type="number" name="q2" id="q2" min="1" max="10">
+
+            <label for="q3">Which front-end frameworks do you use? (Select multiple)</label>
+            <input type="checkbox" name="q3" value="react" id="q3-react"> <label for="q3-react">React</label>
+            <input type="checkbox" name="q3" value="angular" id="q3-angular"> <label for="q3-angular">Angular</label>
+            <input type="checkbox" name="q3" value="vue" id="q3-vue"> <label for="q3-vue">Vue.js</label>
+
+            <label for="q4">What is your favorite mobile operating system?</label>
+            <select name="q4" id="q4">
+                <option value="android">Android</option>
+                <option value="ios">iOS</option>
+                <option value="other">Other</option>
+            </select>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

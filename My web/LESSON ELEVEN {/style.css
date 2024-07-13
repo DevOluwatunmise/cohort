@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.outerContainer{
+    border: 3px dotted #000;
+    width: 75vw;
+    height: 90vh;
+    margin: 40px auto;
+    
+}
+
+.innerContainer {
+    border: 2px solid blue;
+    width: 40vw;
+    height:50vh ;
+    margin: 200px auto;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    padding: 1rem;
+}
+
+.absolute {
+    background-color:blue ;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.relative {
+    background-color: red;
+    position: relative;
+    top: 300px;
+    left: 100px;
+
+}
+.fixed {
+    background-color: green;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+}
+.sticky {
+    background-color: black;
+    position: sticky;
+    top: 50;
+    bottom: 100;
+}
+
+
+/* Example 2 */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+section {
+    height: 100vh;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+
+header, footer {
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
+
+header {
+    position: static;
+    top: 0;
+    font-size: 5rem;
+}
+footer {
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    font-size: 3rem;
+}
+
+a:visited {
+    color: #fff;
+}
+
+.social {
+    background-color: aqua;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    font-size: inherit;
+    padding: 1rem;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+    min-height: 100vh
+
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    gap: 1rem;
+    align-items: end;
+    justify-content: center;
+}
+
+.box{
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: aqua;
+    background-color: brown;
+    margin:0.5rem ;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    border-radius: 20%;
+    
+
+}
+
+.headerl{
+    text-align: center;
+}
+.sidebarel{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+.box:nth-child(even)
+{color:blue}
